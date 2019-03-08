@@ -1,7 +1,6 @@
 body {
-    background-color: #b66fb6;
+    background-color: rgb(219, 135, 161);
     font-family: 'Dancing Script', cursive;
-    font-family: 'Marck Script', cursive;
     color: rgb(71, 14, 34);
 
 
@@ -20,9 +19,9 @@ body {
     padding: 0px;
     width: 375px;
     margin: 8px;
-    text-align: justify;
-    box-shadow: 1px 4px 2px 3px;
-    background-color: rgb(219, 148, 171);
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: rgb(170, 87, 114);
     border-radius: 25px;
    
 }
@@ -30,8 +29,6 @@ body {
 .specifications {
     font-weight: bold;
     font-size: 18px;
-
-
 }
 
 .price {
@@ -53,24 +50,32 @@ h2 {
     font-size-adjust: 18px;
 }
 
-img { 
+img {
     width: 300px;
     margin: auto;
-    display: block;
+    display: block; 
+}
+
+.Parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Image1 { 
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Image2{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
 h1 {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 55px;
+  text-align: right;
+  font-size: 60px;
   font-feature-settings: "blwm";
-  box-shadow: 3px 3px 3px 3px rgb(71, 14, 34);
-  padding: 0%;
-  margin: auto;
-  background-color: rgb(202, 98, 133);
-  border-radius: 25px;
-  padding: 20px; 
-  width: 600px;
-  height: 75px;
+
 }
