@@ -65,6 +65,10 @@ img {
     left: 0;
 }
 
+.Card:hover {
+    transform: scale(1.1);
+}
+
 
 h1 {
   text-align: right;
