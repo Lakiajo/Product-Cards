@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(219, 135, 161);
+    background-color: rgb(231, 165, 186);
     font-family: 'Dancing Script', cursive;
     color: rgb(71, 14, 34);
 }
@@ -22,6 +22,7 @@ body {
     border-radius: 25px;   
 }
 
+
 .specifications {
     font-weight: bold;
     font-size: 18px;
@@ -32,7 +33,7 @@ body {
     font-size: 18px;  
 }
 .availability {
-    background-color: rgb(194, 134, 164);
+    background-color: rgb(170, 134, 152);
     margin: auto;
     padding: 1%;
     font-size: 18px;   
@@ -43,8 +44,9 @@ h2 {
     font-size-adjust: 18px;
 }
 
-img {
-    width: 300px;
+img { 
+    border-radius: 20px;
+    width: 220px;
     margin: auto;
     display: block;
 }
