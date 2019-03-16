@@ -3,11 +3,13 @@
 This is my Product Card Page. It allows you to view all available and unavailable cupcakes. 
 
 ## Getting Started
-```$ git clone ---
+```
+$ git clone git@github.com:Lakiajo/Product-Cards.git
 ```
 
 ### Prerequisites
-```$ npm install -g http-server
+```
+$ npm install -g http-server
 ```
 ## Image
 Inline-style: 
