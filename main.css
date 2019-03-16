@@ -1,7 +1,6 @@
 body {
     background-color: rgb(231, 165, 186);
     font-family: 'Dancing Script', cursive;
-    font-family: 'Marck Script', cursive;
     color: rgb(71, 14, 34);
 }
 
@@ -9,21 +8,18 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;   
+    justify-content: center;
 }
+
 .Card {
     border: 1px solid rgb(136, 16, 90);
     padding: 0px;
     width: 375px;
     margin: 8px;
     text-align: center;
-    box-shadow: 1px 2px 2px 2px;
-    background-color: rgb(233, 127, 160);
-    border-radius: 25px;
-    margin-bottom: 15px;
-}
-.Card:hover {
-    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px;
+    background-color: rgb(170, 87, 114);
+    border-radius: 25px;   
 }
 
 
@@ -34,13 +30,13 @@ body {
 
 .price {
     font-weight: bold;
-    font-size: 18px;   
+    font-size: 18px;  
 }
 .availability {
     background-color: rgb(170, 134, 152);
     margin: auto;
     padding: 1%;
-    font-size: 18px;    
+    font-size: 18px;   
 }
 
 h2 { 
@@ -56,27 +52,28 @@ img {
 }
 
 .Parent {
-position: relative;
-top: 0;
-left: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Image1 { 
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Image2{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.Image1 {
-position: relative;
-top: 0;
-left: 0;
-}
-
-.Image2 {
-position: absolute;
-size: 100px;
-top: 0;
-left: 0;
+.Card:hover {
+    transform: scale(1.1);
 }
 
 
 h1 {
   text-align: right;
-  font-size: 50px;
+  font-size: 60px;
   font-feature-settings: "blwm";
 }
